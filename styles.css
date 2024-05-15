@@ -1,0 +1,73 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap'); */
+*{
+    background-image: linear-gradient(90deg,rgb(236, 39, 114),rgb(158, 158, 230));
+    font-variant: small-caps;
+}
+.calcbox{
+    width:340px;
+    height: 360px;
+    /* background-color: aliceblue; */
+    border-radius: 1em;
+    border-style:none;
+    border: 1px solid rgb(202, 6, 104);
+    margin: auto;
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+.display-box{
+    width: 100%;
+    height: 70%;
+    font-size: 25pt;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #dcdbe1;
+    border:solid linear-gradient(rgb(236,39,114),rgb(158,158,230));
+    color:white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align:end;
+}
+#btn{
+    /* background-color:rgb(90, 90, 143); */
+    border-style: none;
+    border-radius: 100%;
+    border-style: none;
+    vertical-align: middle;
+}
+input[type=button]
+ {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-style: none;
+    color: white;
+    text-align: center;
+    border-radius:100%;
+    font-variant: small-caps;
+    vertical-align: middle;
+    cursor: pointer;
+    box-shadow: 0 3px rgb(202, 6, 104);
+    
+ }
+ input[type=button]:hover{
+    background-color: rgb(236,39,114);
+
+ }
+ input[type=button]:active{
+    background-color: rgb(236,39,114);
+    box-shadow: o 2px rgb(202, 6, 104);
+    transform: translateY(4px);
+ }
+
+ #btnenter{
+    background-color: rgb(91,91,145);
+    color:white;
+    border-radius:100%;
+    border-style:none;
+    text-align: center;
+    /* font-variant: small-caps; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+ } 
